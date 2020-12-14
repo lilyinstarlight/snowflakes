@@ -13,7 +13,7 @@ window.Snow = function (element, rate, spawn, horizontal, vertical, size, charac
 	this.size = size || [10, 14];
 
 	this.characters = characters || ['\u2744', '\u2745', '\u2746'];
-	this.colors = colors || ['#f29bd4', '#9bbbf2', '#ffffff'];
+	this.colors = colors || ['#f2aeda', '#77b7ef', '#f2f2f2'];
 
 	this.free = [];
 	this.used = [];
