@@ -201,7 +201,7 @@ window.Snow.prototype.pause = function () {
 window.Snow.Flake = function (pelement, loc, speed, size, character, color) {
 	this.element = document.createElement('span');
 
-	this.element.style.position = 'absolute';
+	this.element.style.position = 'fixed';
 	this.element.style.zIndex = 9001;
 	this.element.style.pointerEvents = 'none';
 	this.element.style.overflow = 'hidden';
