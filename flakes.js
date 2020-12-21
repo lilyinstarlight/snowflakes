@@ -65,11 +65,11 @@ window.Snow.prototype.genSize = function () {
 };
 
 window.Snow.prototype.genCharacter = function () {
-	return this.characters[Math.floor(Math.random()*this.characters.length)]
+	return this.characters[Math.floor(Math.random()*this.characters.length)];
 };
 
 window.Snow.prototype.genColor = function () {
-	return this.colors[Math.floor(Math.random()*this.colors.length)]
+	return this.colors[Math.floor(Math.random()*this.colors.length)];
 };
 
 window.Snow.prototype.update = function () {
